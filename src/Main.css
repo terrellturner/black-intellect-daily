@@ -1,0 +1,31 @@
+article {
+  height: 100dvh;
+  width: 100dvw;
+  display: grid;
+  place-items: center;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+}
+
+#quotes {
+  height: 30%;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  place-items: start;
+  max-width: 1440px;
+  min-width: 800px;
+}
+
+#quote-image {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#quote-container {
+  height: 100%;
+  width: 100%;
+  background-color: burlywood;
+}
