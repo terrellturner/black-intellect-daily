@@ -1,0 +1,54 @@
+main {
+  height: 90dvh;
+  width: 100dvw;
+  display: grid;
+  place-items: center;
+  background-color: cadetblue;
+  margin: 0;
+  padding: 0;
+}
+
+#quotes {
+  height: 100%;
+  width: 80%;
+  display: grid;
+  place-items: center;
+  max-width: 1440px;
+  min-width: 800px;
+  align-content: center;
+  gap: 10rem;
+}
+
+#quote-image {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+
+#quote-image img {
+  height: 80%;
+  width: 70%;
+  background-color: chartreuse;
+}
+
+#quote-and-author {
+  height: 100%;
+  width: 100%;
+  background-color: burlywood;
+  display: grid;
+  place-items: center;
+}
+
+#quote-container {
+  display: grid;
+  height: 30rem;
+  width: 100%;
+  grid-auto-flow: column;
+}
+
+#description {
+  width: 15rem;
+  text-align: center;
+}
